@@ -1,0 +1,63 @@
+we are using react to buiild portfolio website with custom html and css without any thirdparty libraries like tailwind
+this is a responsive website
+
+responsive website design has 2 apprpaches 
+            1.mobile first 
+            2.website first
+            mobile first requires less code
+
+1.we have created REACT_PORTFOLIO FOLDER FOR PROJECT 
+2.go to terminal and create a react app by  running 
+*<npx create-react-app portfolio> 
+3.this command will initialise a react app in your folder with name "portfolio" along with some folders andd files in it
+4. after this 
+*cd portfolio
+*npm start
+
+
+*<npm start> THIS IS THE COMMAND TO RUN THIS APPLICATION
+
+*<src> folder
+1.go to src folder and delete those inbuilt files <app.css> and <apptext.js>
+3.go to app.js and delete import statement for app.js and delete all the content in div 
+4.clear everything in index.css and write new code
+
+/we use fontawesome for icons
+go to its website>login>managekits>freeicons and copy that code
+now go to public >inndex.html and then paste this code in head tag
+
+/we use googlefonts
+go to goolefonts website select any font and click on get cpde and hit on embeded code
+go to the above html code and paste it under fontawesome tag
+
+*<NAVBAR COMPONENT>
+1.go to extensions and download es7 react+redux
+2.this extension help us to create react components very easily
+3.go to navbar.js file and type rafce hit enter you will get bioler playe code of that react components
+4.import logo stored in assets in to your navbar.js 
+5.save file 
+5.go to app.js and import navbar file here and render it
+6.go to navbar.css and write code
+
+*<HEADER> component
+1.create this folder
+2.create header.js and header.css file
+3.import this css file in js and this js file in app.js and render it
+4.in header we have some moving components for that we need to install react-typing-effect
+5.importthis in header.js file
+
+*<SERVICES> component
+1.create services folder
+2.create service.js and services.css files
+3.import css file in js file
+4.import this js file in app.js and render this by writing <services/> under the header tag
+
+*<WORKS components>
+same as above
+
+*<FOOTER> 
+same
+
+
+*cd portfolio
+*<npm start> THIS IS THE COMMAND TO RUN THIS APPLICATION
